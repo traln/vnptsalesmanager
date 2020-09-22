@@ -14,7 +14,6 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { LoginComponent } from './login/login.component';
-import { UserprofileComponent } from './userprofile/userprofile.component';
 
 @NgModule({
   imports: [
