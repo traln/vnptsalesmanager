@@ -12,7 +12,8 @@ export const ROUTES: RouteInfo[] = [
     { path: '/thucdon', title: 'Quản lý thực đơn',  icon:'food_bank', class: '' },
     { path: '/danhmucban', title: 'Quản lý bàn',  icon:'content_paste', class: '' },
     { path: '/banhang', title: 'Quản lý bán hàng',  icon:'library_books', class: '' },
-    { path: '/khachhang', title: 'Quản lý khách hàng',  icon:'person', class: '' }
+    { path: '/khachhang', title: 'Quản lý khách hàng',  icon:'person', class: '' },
+    { path: '/userprofile', title: 'Profile',  icon:'person', class: '' }
 ];
 
 @Component({

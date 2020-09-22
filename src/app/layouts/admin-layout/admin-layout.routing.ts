@@ -5,6 +5,8 @@ import { QuanlythucdonComponent } from "../../quanlythucdon/quanlythucdon.compon
 import { QuanlybanComponent } from "../../quanlyban/quanlyban.component";
 import { QuanlybanhangComponent } from "../../quanlybanhang/quanlybanhang.component";
 import { QuanlykhachhangComponent } from "../../quanlykhachhang/quanlykhachhang.component";
+import { LoginComponent } from "../../login/login.component";
+import { UserprofileComponent } from "../../userprofile/userprofile.component";
 
 export const AdminLayoutRoutes: Routes = [
   { path: "dashboard", component: DashboardComponent },
@@ -15,4 +17,5 @@ export const AdminLayoutRoutes: Routes = [
   },
   { path: "banhang", component: QuanlybanhangComponent },
   { path: "khachhang", component: QuanlykhachhangComponent },
+  { path: 'userprofile',   component: UserprofileComponent },
 ];
